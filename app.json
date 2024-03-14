@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "blinq-app",
+    "slug": "blinq-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#030315",
+      "image": "./assets/splash.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#030315",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "package": "com.arpeiks.blinqapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "da3c8be8-6cdb-4408-a8b1-347fef3d9541"
+      }
+    }
+  }
+}
