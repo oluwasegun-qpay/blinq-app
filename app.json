@@ -3,6 +3,7 @@
     "name": "blinq-app",
     "slug": "blinq-app",
     "version": "1.0.0",
+    "scheme": "blinq-app",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -11,9 +12,7 @@
       "backgroundColor": "#030315",
       "image": "./assets/splash.png"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -31,6 +30,15 @@
       "eas": {
         "projectId": "da3c8be8-6cdb-4408-a8b1-347fef3d9541"
       }
-    }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/inter.ttf", "./assets/fonts/inter-bold.ttf"]
+        }
+      ]
+    ]
   }
 }
