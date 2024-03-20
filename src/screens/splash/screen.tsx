@@ -1,9 +1,9 @@
 import React from "react";
+import { Link } from "expo-router";
 import Slides from "./components/slides";
 import Footer from "./components/footer";
 import Paginator from "./components/paginator";
 import { StyleSheet, View } from "react-native";
-import { Link } from "expo-router";
 
 const SplashScreen = () => {
   const [index, setIndex] = React.useState(0);

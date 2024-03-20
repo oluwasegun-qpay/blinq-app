@@ -1,10 +1,10 @@
 import React from "react";
 import { View } from "react-native";
 
-type Props = { children: React.ReactNode; padding?: number };
+type Props = { flex?: number; children: React.ReactNode; padding?: number };
 
-const PaddingView = ({ children, padding = 16 }: Props) => (
-  <View style={{ padding }}>{children}</View>
+const Padding = ({ flex, children, padding = 16 }: Props) => (
+  <View style={{ padding, flex }}>{children}</View>
 );
 
-export default PaddingView;
+export default Padding;
